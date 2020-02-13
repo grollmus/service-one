@@ -7,10 +7,10 @@ export class AppService {
     const collectionURL = process.env.COLLECTIONURL;
     const token = process.env.TOKEN;
 
-    var authHandler = getPersonalAccessTokenHandler(token);
-    var connection = new WebApi(collectionURL, authHandler);
+    const authHandler = getPersonalAccessTokenHandler(token);
+    const connection = new WebApi(collectionURL, authHandler);
 
-    var vstsGit = connection.getGitApi().then(
+    const vstsGit = connection.getGitApi().then(
       success => {
         console.log(success);
       },
