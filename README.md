@@ -38,7 +38,19 @@ $ npm run test:cov
 
 ## Docker Compose File
 
-```
+```yaml
+version: '2'
+services:
+  service-one:
+    image: service-one
+    container_name: service-one
+    restart: always
+    environment:
+      - NODE_ENV=productions
+      - COLLECTIONURL=http://devops/
+      - TOKEN=awesometoken
+    ports:
+      - 3000:3000
 ```
 
 ## License
