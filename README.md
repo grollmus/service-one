@@ -2,7 +2,7 @@
 
 ## Description
 
-Custom Branching Policies for Azure DevOps Pull-Request as a Web-Service. Based on [Nest](https://github.com/nestjs/nest) framework.
+Template for Azure DevOps WebHooks. Based on [Nest](https://github.com/nestjs/nest) framework.
 
 ## Installation
 
