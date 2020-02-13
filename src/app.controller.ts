@@ -13,4 +13,9 @@ export class AppController {
       hasCollectionUrl: !!process.env.COLLECTIONURL,
     };
   }
+
+  @Post()
+  postIndex() {
+    return 'bla';
+  }
 }
