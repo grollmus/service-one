@@ -55,4 +55,4 @@ services:
 
 ## License
 
-[MIT licensed](LICENSE).
+[MIT licensed](LICENSE)
