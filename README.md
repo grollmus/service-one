@@ -1,4 +1,5 @@
 # Service One
+[![CircleCI](https://circleci.com/gh/grollmus/service-one.svg?style=svg)](https://circleci.com/gh/grollmus/service-one)
 
 ## Description
 
