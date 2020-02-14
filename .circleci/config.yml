@@ -28,4 +28,4 @@ jobs:
           command: npm run test
       - run:
           name: Production Build
-          command: npm build
+          command: npm run build
