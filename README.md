@@ -43,7 +43,7 @@ services:
     container_name: service-one
     restart: always
     environment:
-      - NODE_ENV=productions
+      - NODE_ENV=production
       - COLLECTIONURL=http://devops/
       - TOKEN=awesometoken
     ports:
