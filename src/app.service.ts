@@ -1,9 +1,14 @@
 import { Injectable } from '@nestjs/common';
-import { getPersonalAccessTokenHandler, WebApi } from 'azure-devops-node-api';
+import {
+  getPersonalAccessTokenHandler,
+  WebApi,
+  IWebApiRequestSettings,
+} from 'azure-devops-node-api';
+import { GitPullRequest } from 'azure-devops-node-api/interfaces/GitInterfaces';
 
 @Injectable()
 export class AppService {
-  azureDevOps() {
+  handleDevOpsRequest(devOpsBody: GitPullRequest) {
     const collectionURL = process.env.COLLECTIONURL;
     const token = process.env.TOKEN;
 
@@ -18,5 +23,7 @@ export class AppService {
         console.log(error);
       },
     );
+
+    return true;
   }
 }
