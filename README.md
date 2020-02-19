@@ -14,7 +14,7 @@ $ npm install
 
 ## Development
 
-Use ngrok for a public url to your development service. Use `ngrok help` for usage.
+Use ngrok for a public url to your development service. Use `ngrok help` for usage or [ngork documentation](https://ngrok.com/docs).
 
 ```bash
 # create public url on mac
