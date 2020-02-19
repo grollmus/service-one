@@ -1,4 +1,5 @@
 # Service One
+
 [![CircleCI](https://circleci.com/gh/grollmus/service-one.svg?style=svg)](https://circleci.com/gh/grollmus/service-one)
 
 ## Description
@@ -9,6 +10,18 @@ Template for Azure DevOps WebHooks. Based on [Nest](https://github.com/nestjs/ne
 
 ```bash
 $ npm install
+```
+
+## Development
+
+Use ngrok for a public url to your development service. Use `ngrok help` for usage.
+
+```bash
+# create public url on mac
+$ npm run ngrok:mac
+
+# or for windows
+$ npm run ngrok:win
 ```
 
 ## Running the app
